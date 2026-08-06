@@ -1,0 +1,4 @@
+# opencode-openai-codex-auth — typecheck plus the repo's own vitest suite.
+test:
+  - name: typecheck-and-vitest
+    run: npm ci --no-audit --no-fund && npm run typecheck && npm test
